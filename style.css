@@ -1,3 +1,7 @@
+.center {
+    text-align: center;
+}
+
 .heading{
     padding: 5px 0px 0px 25px;
     color: black;
@@ -26,11 +30,13 @@ td.two {
 .board {
     border-spacing: 0px;
     padding: 150px;
+    margin: auto;
 }
 
 .backboard {
     background-image: url("images/background.jpg");
     background-size: cover;
+    margin: auto;
 }
 
 .footer {
