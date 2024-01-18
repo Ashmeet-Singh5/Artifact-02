@@ -1,0 +1,46 @@
+.heading{
+    padding: 5px 0px 0px 25px;
+    color: black;
+}
+
+h1.chess {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aqua;
+    color: black;
+    font-size: 500%;
+    margin: auto;
+    padding: 10px;
+}
+
+td.one {
+    color: white;
+    background-color: white;
+    padding: 40px;
+}
+
+td.two {
+    background-color: black;
+    padding: 40px;
+}
+
+.board {
+    border-spacing: 0px;
+    padding: 150px;
+}
+
+.backboard {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+
+.footer {
+    background-color: aqua;
+    margin: auto;
+    padding: 25px;
+}
+
+.W3C:hover {
+    background-color: aliceblue;
+    padding: 5px;
+    box-shadow: -2px 2px 0px 0px;
+}
