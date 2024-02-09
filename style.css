@@ -8,7 +8,7 @@
 }
 
 h1.chess {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'BioRhymeExpandedRegular';
     background-color: aqua;
     color: black;
     font-size: 500%;
@@ -17,14 +17,31 @@ h1.chess {
 }
 
 td.one {
+    font-family: 'ChessMedium';
     color: white;
-    background-color: white;
+    background-color: lightgray;
     padding: 40px;
 }
 
 td.two {
-    background-color: black;
+    font-family: 'ChessMedium';
+    background-color: rgb(29, 29, 29);
     padding: 40px;
+}
+
+.whitePawns {
+    font-size: 200%;
+    color: white;
+}
+
+.blackPawns {
+    font-size: 200%;
+    color: black;
+}
+
+.blanks {
+    font-size: 200%;
+    color: transparent;
 }
 
 .board {
